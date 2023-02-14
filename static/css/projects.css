@@ -1,0 +1,91 @@
+.projects {
+  position: relative;
+  opacity: 0;
+  animation: projectsAnimation 1s ease-in forwards;
+  animation-delay: 3s;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 2fr));
+  justify-items: center;
+  align-items: center;
+  row-gap: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 50px;
+}
+
+.projects .card {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  min-width: 300px;
+  height: 200px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+  transition: 0.5s;
+}
+
+.projects .card:hover {
+  transform: scale(1.1);
+}
+
+.projects > div:first-child:nth-last-child(odd) {
+  grid-column: 1 / -1;
+}
+
+.bg-img {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.bg-text {
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+@keyframes projectsAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .projects {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .projects {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .linkedin-logo {
+    margin-right: 40%;
+  }
+
+  img {
+    width: 160px;
+    height: 190px;
+  }
+}

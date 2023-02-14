@@ -1,0 +1,4 @@
+baseURL= 'https://saliherdemkaymak.com/'
+languageCode = "en-us"
+title = "Personal Website - SEK"
+publishDir = "docs"

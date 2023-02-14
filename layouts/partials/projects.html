@@ -1,0 +1,14 @@
+<head>
+  <link rel="stylesheet" type="text/css" href="/css/projects.css" />
+</head>
+
+<div class="projects">
+  {{range .Site.Data.projects}}
+  <div class="card">
+    <a href={{.url | safeURL}} target="_blank">
+      <div class="bg-img" id="card-arkuci" style={{.style  | safeCSS}}></div>
+      <div class="bg-text">{{.name}}</div>
+    </a>
+  </div>
+  {{end}}
+</div>

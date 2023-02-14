@@ -1,0 +1,75 @@
+img {
+  position: relative;
+  width: 200px;
+  height: 230px;
+  animation: begin 2s ease-in-out forwards;
+  opacity: 0;
+}
+
+.introduction {
+  position: relative;
+  width: 72%;
+  left: 14%;
+  animation: intro 2s ease-in-out forwards;
+  font-weight: bold;
+}
+
+h1 {
+  animation: intro 2s ease-in-out forwards;
+}
+
+h4 {
+  position: relative;
+  top: -120px;
+  animation: mail 3s ease-in-out forwards;
+}
+
+@keyframes intro {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(-80px);
+  }
+}
+
+@keyframes begin {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.5;
+    transform: translateY(0px);
+    border-radius: 30%;
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(-90px);
+    border-radius: 50%;
+  }
+}
+
+@keyframes mail {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(40px);
+  }
+}

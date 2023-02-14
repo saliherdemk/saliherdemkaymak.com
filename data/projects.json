@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Arkuçi",
+    "url": "https://arkuci.com/",
+    "style": "background-image: url('/media/arkuci.png');background-size: contain"
+  },
+  {
+    "name": "Family Tree Generator",
+    "url": "https://saliherdemk.github.io/Family-Tree-Generator/",
+    "style": "background-image: url('/media/family-tree.png')"
+  },
+  {
+    "name": "Nike Price Tracker",
+    "url": "https://nike-tracker.vercel.app/",
+    "style": "background-image: url('/media/price-tracker.png')"
+  },
+  {
+    "name": "C4.5 Algorithm Visulizer",
+    "url": "https://saliherdemk.github.io/C4.5-Algorithm-Visulizer/",
+    "style": "background-image: url('/media/c4.5.png')"
+  },
+  {
+    "name": "Turkish Sign Language to Voice",
+    "url": "https://github.com/saliherdemk/Turkish-Sign-Language-Alphabet-to-Voice",
+    "style": "background-image: url(./media/demo.gif);background-size: contain;background-color: black;"
+  },
+  {
+    "name": "Slide Puzzle",
+    "url": "https://saliherdemk.github.io/Slider-Puzzle/",
+    "style": "background-image: url(./media/slide-puzzle.JPG)"
+  },
+  {
+    "name": "Ascii Video Filter",
+    "url": "https://saliherdemk.github.io/Ascii-Video-Filter/",
+    "style": "background-image: url(./media/ascii-filter.JPG)"
+  },
+  {
+    "name": "Logic Circuit Simulator",
+    "url": "https://saliherdemk.github.io/Logic-Circuit-Simulator/",
+    "style": "background-image: url(./media/logic-demo.gif)"
+  },
+  {
+    "name": "Binary Tree Visualization",
+    "url": "https://saliherdemk.github.io/Binary-Tree-Visualization/",
+    "style": "background-image: url(./media/binary-tree.JPG)"
+  },
+  {
+    "name": "Huffman Tree Visualization",
+    "url": "https://saliherdemk.github.io/Optimal-Huffman-Tree/",
+    "style": "background-image: url(./media/huffman.JPG)"
+  },
+  {
+    "name": "Django Blog",
+    "url": "https://saliherdemkaymak.pythonanywhere.com/",
+    "style": "background-image: url(./media/django.JPG)"
+  },
+  {
+    "name": "Memorize Numbers Website",
+    "url": "https://saliherdemk.github.io/MemorizeNumbers/#/",
+    "style": "background-image: url(./media/memorizenumbers.JPG)"
+  },
+  {
+    "name": "SmallCode Website",
+    "url": "https://github.com/saliherdemk/Smallcode-Website",
+    "style": "background-image: url(./media/smallcode.JPG)"
+  },
+  {
+    "name": "Chimp Test Chrome Extension",
+    "url": "https://chrome.google.com/webstore/detail/chimp-test-bot/fgcogcngjdigeolhgiblbfhbihecimgd?hl=tr&authuser=0",
+    "style": "background-image: url(./media/chimp-test.JPG)"
+  }
+]
