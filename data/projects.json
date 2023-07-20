@@ -5,6 +5,11 @@
     "style": "background-image: url('/media/arkuci.png');background-size: contain"
   },
   {
+    "name": "Mips Datapath Simulator",
+    "url": "https://saliherdemk.github.io/Mips-Datapath-Simulator/",
+    "style": "background-image: url('/media/mips-datapath.gif')"
+  },
+  {
     "name": "Family Tree Generator",
     "url": "https://saliherdemk.github.io/Family-Tree-Generator/",
     "style": "background-image: url('/media/family-tree.png')"
