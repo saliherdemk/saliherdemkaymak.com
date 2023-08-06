@@ -1,9 +1,10 @@
 [
   {
     "name": "Arkuçi",
-    "url": "https://arkuci.com/",
+    "url": "https://arkuci-saliherdemk.vercel.app/",
     "style": "background-image: url('/media/arkuci.png');background-size: contain"
   },
+
   {
     "name": "Mips Datapath Simulator",
     "url": "https://saliherdemk.github.io/Mips-Datapath-Simulator/",
@@ -15,9 +16,9 @@
     "style": "background-image: url('/media/family-tree.png')"
   },
   {
-    "name": "Nike Price Tracker",
-    "url": "https://nike-tracker.vercel.app/",
-    "style": "background-image: url('/media/price-tracker.png')"
+    "name": "RN-Library",
+    "url": "https://github.com/saliherdemk/RN-Library",
+    "style": "background-image: url('/media/rn-library.png');background-size: contain;background-color: black"
   },
   {
     "name": "C4.5 Algorithm Visulizer",
