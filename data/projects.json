@@ -2,77 +2,77 @@
   {
     "name": "Arkuçi",
     "url": "https://arkuci-saliherdemk.vercel.app/",
-    "style": "background-image: url('/media/arkuci.png');background-size: contain"
+    "style": "background-image: url('/media/projects/arkuci.png');background-size: contain"
   },
 
   {
     "name": "Mips Datapath Simulator",
     "url": "https://saliherdemk.github.io/Mips-Datapath-Simulator/",
-    "style": "background-image: url('/media/mips-datapath.gif')"
+    "style": "background-image: url('/media/projects/mips-datapath.gif')"
   },
   {
     "name": "Family Tree Generator",
     "url": "https://saliherdemk.github.io/Family-Tree-Generator/",
-    "style": "background-image: url('/media/family-tree.png')"
+    "style": "background-image: url('/media/projects/family-tree.png')"
   },
   {
     "name": "RN-Library",
     "url": "https://github.com/saliherdemk/RN-Library",
-    "style": "background-image: url('/media/rn-library.png');background-size: contain;background-color: black"
+    "style": "background-image: url('/media/projects/rn-library.png');background-size: contain;background-color: black"
   },
   {
     "name": "C4.5 Algorithm Visulizer",
     "url": "https://saliherdemk.github.io/C4.5-Algorithm-Visulizer/",
-    "style": "background-image: url('/media/c4.5.png')"
+    "style": "background-image: url('/media/projects/c4.5.png')"
   },
   {
     "name": "Turkish Sign Language to Voice",
     "url": "https://github.com/saliherdemk/Turkish-Sign-Language-Alphabet-to-Voice",
-    "style": "background-image: url(./media/demo.gif);background-size: contain;background-color: black;"
+    "style": "background-image: url(./media/projects/demo.gif);background-size: contain;background-color: black;"
   },
   {
     "name": "Slide Puzzle",
     "url": "https://saliherdemk.github.io/Slider-Puzzle/",
-    "style": "background-image: url(./media/slide-puzzle.JPG)"
+    "style": "background-image: url(./media/projects/slide-puzzle.JPG)"
   },
   {
     "name": "Ascii Video Filter",
     "url": "https://saliherdemk.github.io/Ascii-Video-Filter/",
-    "style": "background-image: url(./media/ascii-filter.JPG)"
+    "style": "background-image: url(./media/projects/ascii-filter.JPG)"
   },
   {
     "name": "Logic Circuit Simulator",
     "url": "https://saliherdemk.github.io/Logic-Circuit-Simulator/",
-    "style": "background-image: url(./media/logic-demo.gif)"
+    "style": "background-image: url(./media/projects/logic-demo.gif)"
   },
   {
     "name": "Binary Tree Visualization",
     "url": "https://saliherdemk.github.io/Binary-Tree-Visualization/",
-    "style": "background-image: url(./media/binary-tree.JPG)"
+    "style": "background-image: url(./media/projects/binary-tree.JPG)"
   },
   {
     "name": "Huffman Tree Visualization",
     "url": "https://saliherdemk.github.io/Optimal-Huffman-Tree/",
-    "style": "background-image: url(./media/huffman.JPG)"
+    "style": "background-image: url(./media/projects/huffman.JPG)"
   },
   {
     "name": "Django Blog",
     "url": "https://saliherdemkaymak.pythonanywhere.com/",
-    "style": "background-image: url(./media/django.JPG)"
+    "style": "background-image: url(./media/projects/django.JPG)"
   },
   {
     "name": "Memorize Numbers Website",
     "url": "https://saliherdemk.github.io/MemorizeNumbers/#/",
-    "style": "background-image: url(./media/memorizenumbers.JPG)"
+    "style": "background-image: url(./media/projects/memorizenumbers.JPG)"
   },
   {
     "name": "SmallCode Website",
     "url": "https://github.com/saliherdemk/Smallcode-Website",
-    "style": "background-image: url(./media/smallcode.JPG)"
+    "style": "background-image: url(./media/projects/smallcode.JPG)"
   },
   {
     "name": "Chimp Test Chrome Extension",
     "url": "https://chrome.google.com/webstore/detail/chimp-test-bot/fgcogcngjdigeolhgiblbfhbihecimgd?hl=tr&authuser=0",
-    "style": "background-image: url(./media/chimp-test.JPG)"
+    "style": "background-image: url(./media/projects/chimp-test.JPG)"
   }
 ]

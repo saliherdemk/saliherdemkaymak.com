@@ -1,0 +1,25 @@
+main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+button {
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+}
+
+.carousel {
+  padding-top: 20px;
+  display: flex;
+  overflow: auto;
+  width: 100vw;
+}
+
+.active-button {
+  border-bottom: 1px solid black;
+}

@@ -11,6 +11,10 @@
   padding-left: 10%;
   padding-right: 10%;
   padding-bottom: 50px;
+  flex: 0 0 100%;
+  min-width: 100%;
+  box-sizing: border-box;
+  
 }
 
 .projects .card {
