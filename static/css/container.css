@@ -1,12 +1,12 @@
-.projects {
+.container {
   position: relative;
   opacity: 0;
-  animation: projectsAnimation 1s ease-in forwards;
+  animation: containerAnimation 1s ease-in forwards;
   animation-delay: 3s;
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 2fr));
+  grid-template-rows: auto auto 1fr 1fr 1fr auto auto;
   justify-items: center;
-  align-items: center;
   row-gap: 50px;
   padding-left: 10%;
   padding-right: 10%;
@@ -14,10 +14,9 @@
   flex: 0 0 100%;
   min-width: 100%;
   box-sizing: border-box;
-  
 }
 
-.projects .card {
+.container .card {
   position: relative;
   width: 100%;
   max-width: 400px;
@@ -28,11 +27,11 @@
   transition: 0.5s;
 }
 
-.projects .card:hover {
+.container .card:hover {
   transform: scale(1.1);
 }
 
-.projects > div:first-child:nth-last-child(odd) {
+.container > div:first-child:nth-last-child(odd) {
   grid-column: 1 / -1;
 }
 
@@ -62,7 +61,7 @@
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-@keyframes projectsAnimation {
+@keyframes containerAnimation {
   0% {
     opacity: 0;
   }
@@ -73,14 +72,14 @@
 }
 
 @media screen and (max-width: 1100px) {
-  .projects {
+  .container {
     padding-left: 0;
     padding-right: 0;
   }
 }
 
 @media screen and (max-width: 900px) {
-  .projects {
+  .container {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 

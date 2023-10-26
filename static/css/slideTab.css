@@ -11,6 +11,7 @@ button {
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: white;
+  cursor: pointer;
 }
 
 .carousel {
@@ -18,6 +19,7 @@ button {
   display: flex;
   overflow: auto;
   width: 100vw;
+  cursor: grab;
 }
 
 .active-button {
