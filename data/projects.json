@@ -66,11 +66,6 @@
     "style": "background-image: url(./media/projects/memorizenumbers.JPG)"
   },
   {
-    "name": "SmallCode Website",
-    "url": "https://github.com/saliherdemk/Smallcode-Website",
-    "style": "background-image: url(./media/projects/smallcode.JPG)"
-  },
-  {
     "name": "Chimp Test Chrome Extension",
     "url": "https://chrome.google.com/webstore/detail/chimp-test-bot/fgcogcngjdigeolhgiblbfhbihecimgd?hl=tr&authuser=0",
     "style": "background-image: url(./media/projects/chimp-test.JPG)"

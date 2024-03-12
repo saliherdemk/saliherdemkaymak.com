@@ -19,7 +19,6 @@ button {
   display: flex;
   overflow: auto;
   width: 100vw;
-  cursor: grab;
 }
 
 .active-button {

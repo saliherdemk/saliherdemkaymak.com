@@ -28,7 +28,7 @@
   transform: scale(1.1);
 }
 
-.projects > div:first-child:nth-last-child(odd) {
+.projects>div:first-child:nth-last-child(odd) {
   grid-column: 1 / -1;
 }
 

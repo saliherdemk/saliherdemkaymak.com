@@ -7,41 +7,6 @@ for (let i = 0; i < buttons.length; i++) {
   });
 }
 
-let isDragStart = false;
-let prevPageX;
-let prevScrollLeft;
-let positionDiff;
-
-carousel.addEventListener("mousedown", dragStart);
-carousel.addEventListener("touchstart", dragStart);
-
-carousel.addEventListener("mousemove", dragging);
-carousel.addEventListener("touchmove", dragging);
-
-carousel.addEventListener("mouseup", dragStop);
-carousel.addEventListener("mouseleave", () => {
-  isDragStart = false;
-});
-carousel.addEventListener("touchend", dragStop);
-
-function dragging(e) {
-  if (!isDragStart) return;
-  e.preventDefault();
-  positionDiff = (e.pageX || e.touches[0].pageX) - prevPageX;
-  carousel.scrollLeft = prevScrollLeft - positionDiff;
-}
-
-function dragStart(e) {
-  isDragStart = true;
-  prevPageX = e.pageX || e.touches[0].pageX;
-  prevScrollLeft = carousel.scrollLeft;
-}
-
-function dragStop() {
-  isDragStart = false;
-  autoSlide();
-}
-
 function autoSlide(i = -1) {
   let index = i;
   let a = carousel.clientWidth;
