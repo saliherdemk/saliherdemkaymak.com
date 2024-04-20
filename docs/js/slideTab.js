@@ -1,36 +1,38 @@
 const carousel = document.querySelector(".carousel");
-const buttons = document.querySelector(".buttons").children;
+const buttonsContainer = document.querySelector(".buttons");
+const buttons = Array.from(buttonsContainer.children);
 
-for (let i = 0; i < buttons.length; i++) {
-  buttons[i].addEventListener("click", () => {
-    autoSlide(i);
-  });
-}
+buttons.forEach((button, i) => {
+  button.addEventListener("click", () => autoSlide(i));
+});
 
-function autoSlide(i = -1) {
-  let index = i;
-  let a = carousel.clientWidth;
-  let x = carousel.scrollLeft;
-
-  if (i == -1) {
-    if (x < a / 2) {
-      index = 0;
-    } else {
-      index = ~~((x - a / 2) / a) + 1;
-    }
-  }
+function autoSlide(i) {
   const before = document.querySelector(".active-button");
   if (before) {
     before.classList.remove("active-button");
     before.firstElementChild.setAttribute("fill", "gray");
   }
 
-  const current = buttons[index];
+  const current = buttons[i];
   current?.classList.add("active-button");
-  current?.firstElementChild.setAttribute("fill", "black");
+  current?.firstElementChild?.setAttribute("fill", "black");
 
   carousel.scroll({
-    left: carousel.children[index].offsetLeft,
+    left: carousel.children[i].offsetLeft,
     behavior: "smooth",
   });
 }
+
+let lastScrollTop = 0;
+
+function handleScroll() {
+  const scrollTop = window.scrollY;
+  if (scrollTop > lastScrollTop) {
+    buttonsContainer.classList.add("hide");
+  } else {
+    buttonsContainer.classList.remove("hide");
+  }
+  lastScrollTop = scrollTop;
+}
+
+window.addEventListener("scroll", handleScroll);
