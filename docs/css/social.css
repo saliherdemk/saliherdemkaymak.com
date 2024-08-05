@@ -1,18 +1,31 @@
 .social {
   position: absolute;
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
   height: 30%;
   width: 100%;
-  align-items: flex-end;
+  align-items: center;
   background-color: #323437;
 }
 
-.social a {
-  border-radius: 50%;
-  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
+.social div {
+  display: flex;
+}
+
+.social div:nth-child(2) {
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.social div {
   transition: 0.6s;
   animation: social 2s ease-in-out forwards;
+}
+
+.social a {
+  transition: 0.6s;
+  filter: drop-shadow(5px 5px 10px #000000);
 }
 
 .social a:hover {
@@ -23,30 +36,18 @@ svg {
   vertical-align: middle;
 }
 
-a {
-  color: grey;
-}
-
-a:link {
-  text-decoration: none;
-}
-
-a:hover {
-  color: black;
-}
-
 @keyframes social {
   0% {
     opacity: 0;
+    transform: translateY(90px);
   }
 
   50% {
     opacity: 0;
-    transform: translateY(0px);
   }
 
   100% {
     opacity: 1;
-    transform: translateY(-90px);
+    transform: translateY(0px);
   }
 }

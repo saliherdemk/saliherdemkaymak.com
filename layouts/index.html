@@ -1,16 +1,16 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-{{partial "head" . }}
+  {{partial "head" . }}
 
-<body>
-  {{partial "social" }}
+  <body>
+    {{partial "social" }}
 
-  <div class="all">
-    {{partial "introduction" }}
-
-    {{partial "slideTab" . }}
+    <div class="content">
+      {{partial "introduction" }}
+      
+      {{partial "slideTab" . }}
+    </div>
 
     {{partial "script"}}
-</body>
-
+  </body>
 </html>

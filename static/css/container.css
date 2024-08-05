@@ -83,7 +83,7 @@
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 
-  .linkedin-logo {
+  .social div a:first-child {
     margin-right: 40%;
   }
 

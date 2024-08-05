@@ -2,11 +2,3 @@ body {
   margin: 0;
   padding: 0;
 }
-
-.all {
-  position: absolute;
-  width: 100%;
-  text-align: center;
-  top: 30%;
-  background-color: white;
-}

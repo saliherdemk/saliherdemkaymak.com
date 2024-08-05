@@ -1,0 +1,19 @@
+.content {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 30%;
+  background-color: white;
+}
+
+.content a {
+  color: grey;
+}
+
+.content a:link {
+  text-decoration: none;
+}
+
+.content a:hover {
+  color: black;
+}
