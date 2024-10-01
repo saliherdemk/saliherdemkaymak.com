@@ -2,7 +2,7 @@
   {
     "name": "Grada",
     "url": "https://saliherdemk.github.io/Grada/",
-    "style": "background-image: url('/media/under-development.jpg');background-size: contain"
+    "style": "background-image: url('/media/projects/grada.png');background-size: contain"
   },
   {
     "name": "MeshGraphNets",
