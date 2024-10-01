@@ -5,6 +5,11 @@
     "style": "background-image: url('/media/under-development.jpg');background-size: contain"
   },
   {
+    "name": "MeshGraphNets",
+    "url": "https://github.com/saliherdemk/Deepmind-MeshGraphNets",
+    "style": "background-image: url('/media/projects/meshgraphnets-demo.gif');background-size: contain;background-color:black"
+  },
+  {
     "name": "Mips Datapath Simulator",
     "url": "https://saliherdemk.github.io/Mips-Datapath-Simulator/",
     "style": "background-image: url('/media/projects/mips-datapath.gif')"
