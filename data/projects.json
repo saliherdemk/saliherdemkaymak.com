@@ -5,6 +5,11 @@
     "style": "background-image: url('/media/projects/grada.png');background-size: contain"
   },
   {
+    "name": "Hopfield Networks",
+    "url": "https://saliherdemk.github.io/Hopfield-Networks/",
+    "style": "background-image: url('/media/projects/hopfield.gif');background-size: contain"
+  },
+  {
     "name": "MeshGraphNets",
     "url": "https://github.com/saliherdemk/Deepmind-MeshGraphNets",
     "style": "background-image: url('/media/projects/meshgraphnets-demo.gif');background-size: contain;background-color:black"
