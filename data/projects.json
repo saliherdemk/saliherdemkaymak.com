@@ -1,5 +1,10 @@
 [
   {
+    "name": "ML Papers Implementations",
+    "url": "https://github.com/saliherdemk/ML-Papers-Implementations",
+    "style": "background-image: url('/media/projects/ml-papers-implementations.png')"
+  },
+  {
     "name": "Grada",
     "url": "https://saliherdemk.github.io/Grada/",
     "style": "background-image: url('/media/projects/grada.png');background-size: contain"
