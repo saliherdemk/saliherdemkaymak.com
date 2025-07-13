@@ -5,6 +5,11 @@
     "style": "background-image: url('/media/projects/ml-papers-implementations.png')"
   },
   {
+    "name": "snake-rl-dqn",
+    "url": "https://saliherdemk.github.io/snake-rl-dqn/",
+    "style": "background-image: url('/media/projects/snake-demo.gif');background-size: contain;background-color:black"
+  },
+  {
     "name": "Grada",
     "url": "https://saliherdemk.github.io/Grada/",
     "style": "background-image: url('/media/projects/grada.png');background-size: contain"
