@@ -31,7 +31,7 @@
   transform: scale(1.1);
 }
 
-.container>div:first-child:nth-last-child(odd) {
+.container > div:first-child:nth-last-child(odd) {
   grid-column: 1 / -1;
 }
 
