@@ -5,6 +5,11 @@
     "style": "background-image: url('/media/under-development.jpg');background-size: contain"
   },
   {
+    "name": "Naval Warfare AI",
+    "url": "https://github.com/saliherdemk/NavalWarfareAI",
+    "style": "background-image: url('/media/under-development.jpg');background-size: contain"
+  },
+  {
     "name": "ML Papers Implementations",
     "url": "https://github.com/saliherdemk/ML-Papers-Implementations",
     "style": "background-image: url('/media/projects/ml-papers-implementations.png')"
