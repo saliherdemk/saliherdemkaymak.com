@@ -10,6 +10,11 @@
     "style": "background-image: url('/media/under-development.jpg');background-size: contain"
   },
   {
+    "name": "LatexMFR",
+    "url": "https://github.com/saliherdemk/Latex-MFR-app",
+    "style": "background-image: url('/media/projects/LatexMFR.png');background-size: contain"
+  },
+  {
     "name": "ML Papers Implementations",
     "url": "https://github.com/saliherdemk/ML-Papers-Implementations",
     "style": "background-image: url('/media/projects/ml-papers-implementations.png')"
